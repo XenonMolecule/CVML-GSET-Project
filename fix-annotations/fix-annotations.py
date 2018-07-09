@@ -6,9 +6,12 @@ annotation_path = sys.argv[1]
 # Get the target directory path as argument
 replacement_path = sys.argv[2]
 
-# Add slash to the end of the replacement path if forgotten
+# Add slash to the end of the paths if forgotten
 if(replacement_path[-1] != "/"):
     replacement_path = replacement_path + "/"
+
+if(annotation_path[-1] != "/"):
+    annotation_path = annotation_path + "/"
 
 annotation_dir = os.fsencode(annotation_path)
 replacement_dir = os.fsencode(replacement_path)
