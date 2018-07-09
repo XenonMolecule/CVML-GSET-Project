@@ -1,5 +1,4 @@
-To use the fix-annotations script, locate the directory of the annotations you downloaded from another computer,
-then locate the directory of the trashnet directory (probably called dataset-resized or something if you didn't change it).
+To use the fix-annotations script, locate the directory of the annotations you downloaded from another computer, then locate the directory of the trashnet directory (probably called dataset-resized or something if you didn't change it).
 
 Run the script with those two paths as the arguments:
 
