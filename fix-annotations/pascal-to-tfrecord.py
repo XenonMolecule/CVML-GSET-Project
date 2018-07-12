@@ -34,31 +34,36 @@ def conv_name_to_id(name):
 def conv_names_to_ids(names):
     output = []
     for name in names:
-        output.append(conv_name_to_id(name))
+        output.append(conv_name_to_id(name.text))
     return output
 
 def create_tf_example(example):
   # TODO(user): Populate the following variables from your example.
   height = int(example.find('size').find('height').text) # Image height
   width = int(example.find('size').find('width').text) # Image width
-  filename = None # example.find('filename').text # Filename of the image. Empty if image is not from file
+  filename = tf.compat.as_bytes(example.find('filename').text) # Filename of the image. Empty if image is not from file
   with open(example.find('path').text, "rb") as imageFile:
       f = imageFile.read()
-      b = bytearray(f)
+      b = bytes(f)
       encoded_image_data = b # Encoded image bytes
   image_format = b'jpeg' # b'jpeg' or b'png'
 
-  xmins = example.iter('xmin') # List of normalized left x coordinates in bounding box (1 per box)
-  xmaxs = example.iter('xmax') # List of normalized right x coordinates in bounding box
-             # (1 per box)
-  ymins = example.iter('ymin') # List of normalized top y coordinates in bounding box (1 per box)
-  ymaxs = example.iter('ymax') # List of normalized bottom y coordinates in bounding box
-             # (1 per box)
-  classes_text = example.iter('name') # List of string class name of bounding box (1 per box)
+  xmins = [] # List of normalized left x coordinates in bounding box (1 per box)
+  xmaxs = [] # List of normalized right x coordinates in bounding box
+  ymins = [] # List of normalized top y coordinates in bounding box (1 per box)
+  ymaxs = [] # List of normalized bottom y coordinates in bounding box
+  classes_text = [] # List of string class name of bounding box (1 per box)
+  for val in example.iter('xmin'):
+    xmins.append(int(val.text))
+  for val in example.iter('xmax'):
+    xmaxs.append(int(val.text))
+  for val in example.iter('ymin'):
+      ymins.append(int(val.text))
+  for val in example.iter('ymax'):
+      ymaxs.append(int(val.text))
+  for val in example.iter('name'):
+      classes_text.append(bytes(val.text, 'utf-8'))
   classes = conv_names_to_ids(example.iter('name')) # List of integer class id of bounding box (1 per box)
-
-  print(classes)
-  print("---")
 
   tf_example = tf.train.Example(features=tf.train.Features(feature={
       'image/height': dataset_util.int64_feature(height),
