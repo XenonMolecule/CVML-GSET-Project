@@ -10,9 +10,6 @@ flags = tf.app.flags
 flags.DEFINE_string('output_path', '', 'Path to output TFRecord')
 FLAGS = flags.FLAGS
 
-annotation_path = "/c/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/general-dataset/trashnet-annotations/"
-annotation_dir = os.fsencode(annotation_path)
-
 def conv_name_to_id(name):
     if(name == "bottle"):
         return 1
@@ -44,8 +41,11 @@ def create_tf_example(example):
   # TODO(user): Populate the following variables from your example.
   height = int(example.find('size').find('height').text) # Image height
   width = int(example.find('size').find('width').text) # Image width
-  filename = example.find('filename').text # Filename of the image. Empty if image is not from file
-  encoded_image_data = example.find('path').text # Encoded image bytes
+  filename = None # example.find('filename').text # Filename of the image. Empty if image is not from file
+  with open(example.find('path').text, "rb") as imageFile:
+      f = imageFile.read()
+      b = bytearray(f)
+      encoded_image_data = b # Encoded image bytes
   image_format = b'jpeg' # b'jpeg' or b'png'
 
   xmins = example.iter('xmin') # List of normalized left x coordinates in bounding box (1 per box)
@@ -56,6 +56,9 @@ def create_tf_example(example):
              # (1 per box)
   classes_text = example.iter('name') # List of string class name of bounding box (1 per box)
   classes = conv_names_to_ids(example.iter('name')) # List of integer class id of bounding box (1 per box)
+
+  print(classes)
+  print("---")
 
   tf_example = tf.train.Example(features=tf.train.Features(feature={
       'image/height': dataset_util.int64_feature(height),
@@ -75,6 +78,10 @@ def create_tf_example(example):
 
 
 def main(_):
+
+  annotation_path = sys.argv[1]
+  annotation_dir = os.fsencode(annotation_path)
+
   writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
 
   for file in os.listdir(annotation_dir):
