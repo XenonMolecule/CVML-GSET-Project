@@ -29,6 +29,7 @@ def conv_name_to_id(name):
         return 8
     else:
         print("\n\nERROR\n\n")
+        print(name)
         return 9
 
 def conv_names_to_ids(names):
@@ -54,16 +55,19 @@ def create_tf_example(example):
   ymaxs = [] # List of normalized bottom y coordinates in bounding box
   classes_text = [] # List of string class name of bounding box (1 per box)
   for val in example.iter('xmin'):
-    xmins.append(int(val.text))
+    xmins.append(int(val.text)/width)
   for val in example.iter('xmax'):
-    xmaxs.append(int(val.text))
+    xmaxs.append(int(val.text)/width)
   for val in example.iter('ymin'):
-      ymins.append(int(val.text))
+      ymins.append(int(val.text)/height)
   for val in example.iter('ymax'):
-      ymaxs.append(int(val.text))
+      ymaxs.append(int(val.text)/height)
   for val in example.iter('name'):
       classes_text.append(bytes(val.text, 'utf-8'))
   classes = conv_names_to_ids(example.iter('name')) # List of integer class id of bounding box (1 per box)
+
+  if(9 in classes):
+      print(filename)
 
   tf_example = tf.train.Example(features=tf.train.Features(feature={
       'image/height': dataset_util.int64_feature(height),
@@ -95,6 +99,8 @@ def main(_):
       writer.write(tf_example.SerializeToString())
 
   writer.close()
+
+  print("\nDone creating tfrecord")
 
 
 if __name__ == '__main__':
