@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>84. life_span_of_littered_plastic_bottle1.jpg</filename>
+	<path>C:\Users\micha\OneDrive\Documents\GitHub\CVML-GSET-Project\dataset\new-dataset\google-images-data\water-bottles\84. life_span_of_littered_plastic_bottle1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>120</xmin>
+			<ymin>317</ymin>
+			<xmax>770</xmax>
+			<ymax>500</ymax>
+		</bndbox>
+	</object>
+</annotation>

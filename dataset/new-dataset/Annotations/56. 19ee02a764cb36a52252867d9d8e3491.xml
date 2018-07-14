@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>56. 19ee02a764cb36a52252867d9d8e3491.jpg</filename>
+	<path>C:\Users\micha\OneDrive\Documents\GitHub\CVML-GSET-Project\dataset\new-dataset\google-images-data\water-bottles\56. 19ee02a764cb36a52252867d9d8e3491.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4032</width>
+		<height>3024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>385</xmin>
+			<ymin>671</ymin>
+			<xmax>3695</xmax>
+			<ymax>1693</ymax>
+		</bndbox>
+	</object>
+</annotation>

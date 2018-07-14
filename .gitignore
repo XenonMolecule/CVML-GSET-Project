@@ -3,3 +3,7 @@
 /dataset/tensorflow-dataset/models/model/eval/*
 /dataset/new-tensorflow-dataset/models/model/train/*
 /dataset/new-tensorflow-dataset/models/model/eval/*
+/dataset/new-tensorflow-dataset/models/model/export/*
+/dataset/new-tensorflow-dataset/models/ssd/train/*
+/dataset/new-tensorflow-dataset/models/ssd/eval/*
+/dataset/new-dataset/google-images-data/*

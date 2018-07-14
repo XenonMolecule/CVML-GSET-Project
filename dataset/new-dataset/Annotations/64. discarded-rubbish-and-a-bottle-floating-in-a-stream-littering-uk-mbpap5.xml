@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>64. discarded-rubbish-and-a-bottle-floating-in-a-stream-littering-uk-mbpap5.jpg</filename>
+	<path>C:\Users\micha\OneDrive\Documents\GitHub\CVML-GSET-Project\dataset\new-dataset\google-images-data\water-bottles\64. discarded-rubbish-and-a-bottle-floating-in-a-stream-littering-uk-mbpap5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>946</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>646</xmin>
+			<ymin>322</ymin>
+			<xmax>1107</xmax>
+			<ymax>507</ymax>
+		</bndbox>
+	</object>
+</annotation>
