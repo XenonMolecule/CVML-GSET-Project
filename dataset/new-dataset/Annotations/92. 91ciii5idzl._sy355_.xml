@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>92. 91ciii5idzl._sy355_.jpg</filename>
+	<path>/Users/MichaelRyan/Documents/GitHub/CVML-GSET-Project/dataset/new-dataset/google-images-data/water-bottles/92. 91ciii5idzl._sy355_.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>355</width>
+		<height>355</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>83</xmin>
+			<ymin>21</ymin>
+			<xmax>253</xmax>
+			<ymax>339</ymax>
+		</bndbox>
+	</object>
+</annotation>

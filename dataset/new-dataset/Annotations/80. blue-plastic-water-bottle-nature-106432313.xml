@@ -1,0 +1,38 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>80. blue-plastic-water-bottle-nature-106432313.jpg</filename>
+	<path>/Users/MichaelRyan/Documents/GitHub/CVML-GSET-Project/dataset/new-dataset/google-images-data/water-bottles/80. blue-plastic-water-bottle-nature-106432313.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>533</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>169</xmin>
+			<ymin>113</ymin>
+			<xmax>800</xmax>
+			<ymax>532</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>164</xmin>
+			<ymin>3</ymin>
+			<xmax>800</xmax>
+			<ymax>243</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>11. 500-deer-park-water.jpg</filename>
+	<path>/Users/MichaelRyan/Documents/GitHub/CVML-GSET-Project/dataset/new-dataset/google-images-data/water-bottles/11. 500-deer-park-water.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>195</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>33</xmin>
+			<ymin>18</ymin>
+			<xmax>166</xmax>
+			<ymax>481</ymax>
+		</bndbox>
+	</object>
+</annotation>

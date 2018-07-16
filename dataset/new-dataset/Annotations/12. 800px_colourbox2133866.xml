@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>12. 800px_colourbox2133866.jpg</filename>
+	<path>/Users/MichaelRyan/Documents/GitHub/CVML-GSET-Project/dataset/new-dataset/google-images-data/water-bottles/12. 800px_colourbox2133866.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>533</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>189</xmin>
+			<ymin>173</ymin>
+			<xmax>604</xmax>
+			<ymax>366</ymax>
+		</bndbox>
+	</object>
+</annotation>

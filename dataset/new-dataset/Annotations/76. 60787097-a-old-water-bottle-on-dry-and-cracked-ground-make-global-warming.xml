@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>76. 60787097-a-old-water-bottle-on-dry-and-cracked-ground-make-global-warming.jpg</filename>
+	<path>/Users/MichaelRyan/Documents/GitHub/CVML-GSET-Project/dataset/new-dataset/google-images-data/water-bottles/76. 60787097-a-old-water-bottle-on-dry-and-cracked-ground-make-global-warming.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>985</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>398</ymin>
+			<xmax>452</xmax>
+			<ymax>682</ymax>
+		</bndbox>
+	</object>
+</annotation>

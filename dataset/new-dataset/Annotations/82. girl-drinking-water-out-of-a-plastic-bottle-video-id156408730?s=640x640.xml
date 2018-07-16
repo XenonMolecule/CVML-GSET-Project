@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>82. girl-drinking-water-out-of-a-plastic-bottle-video-id156408730?s=640x640.jpg</filename>
+	<path>/Users/MichaelRyan/Documents/GitHub/CVML-GSET-Project/dataset/new-dataset/google-images-data/water-bottles/82. girl-drinking-water-out-of-a-plastic-bottle-video-id156408730?s=640x640.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>280</xmin>
+			<ymin>104</ymin>
+			<xmax>400</xmax>
+			<ymax>163</ymax>
+		</bndbox>
+	</object>
+</annotation>

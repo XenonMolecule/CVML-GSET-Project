@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>53. pregnant-woman-drinking-water-shutterstock-plastic-bottle_eabef634-edaf-11e6-b62a-376882c41036.jpg</filename>
+	<path>/Users/MichaelRyan/Documents/GitHub/CVML-GSET-Project/dataset/new-dataset/google-images-data/water-bottles/53. pregnant-woman-drinking-water-shutterstock-plastic-bottle_eabef634-edaf-11e6-b62a-376882c41036.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>540</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>475</xmin>
+			<ymin>79</ymin>
+			<xmax>604</xmax>
+			<ymax>120</ymax>
+		</bndbox>
+	</object>
+</annotation>

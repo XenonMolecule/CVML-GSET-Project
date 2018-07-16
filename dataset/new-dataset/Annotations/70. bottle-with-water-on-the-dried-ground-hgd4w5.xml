@@ -1,0 +1,38 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>70. bottle-with-water-on-the-dried-ground-hgd4w5.jpg</filename>
+	<path>/Users/MichaelRyan/Documents/GitHub/CVML-GSET-Project/dataset/new-dataset/google-images-data/water-bottles/70. bottle-with-water-on-the-dried-ground-hgd4w5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>956</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>501</xmin>
+			<ymin>399</ymin>
+			<xmax>846</xmax>
+			<ymax>574</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>848</xmin>
+			<ymin>240</ymin>
+			<xmax>1012</xmax>
+			<ymax>678</ymax>
+		</bndbox>
+	</object>
+</annotation>

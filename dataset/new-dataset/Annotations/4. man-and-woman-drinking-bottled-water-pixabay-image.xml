@@ -1,0 +1,38 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>4. man-and-woman-drinking-bottled-water-pixabay-image.jpg</filename>
+	<path>/Users/MichaelRyan/Documents/GitHub/CVML-GSET-Project/dataset/new-dataset/google-images-data/water-bottles/4. man-and-woman-drinking-bottled-water-pixabay-image.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1163</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>267</xmin>
+			<ymin>274</ymin>
+			<xmax>578</xmax>
+			<ymax>701</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1473</xmin>
+			<ymin>76</ymin>
+			<xmax>1920</xmax>
+			<ymax>481</ymax>
+		</bndbox>
+	</object>
+</annotation>

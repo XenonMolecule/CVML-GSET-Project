@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>15. two-people-drinking-water-plastic-bottles-steadicam-slow-motion-shot-standing-side-side-seashore-56637884.jpg</filename>
+	<path>/Users/MichaelRyan/Documents/GitHub/CVML-GSET-Project/dataset/new-dataset/google-images-data/water-bottles/15. two-people-drinking-water-plastic-bottles-steadicam-slow-motion-shot-standing-side-side-seashore-56637884.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>821</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>595</xmin>
+			<ymin>96</ymin>
+			<xmax>926</xmax>
+			<ymax>300</ymax>
+		</bndbox>
+	</object>
+</annotation>
