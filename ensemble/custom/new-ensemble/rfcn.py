@@ -12,6 +12,9 @@ from io import StringIO
 from matplotlib import pyplot as plt
 from PIL import Image
 
+from prediction import Box
+from prediction import Prediction
+
 # This is needed since the notebook is stored in the object_detection folder.
 sys.path.append("C:\\Users\\micha\\OneDrive\\Documents\\GitHub\\models\\research")
 sys.path.append("C:\\Users\\micha\\OneDrive\\Documents\\GitHub\\models\\research\\object_detection")
@@ -23,9 +26,28 @@ if tf.__version__ < '1.4.0':
 from utils import label_map_util
 from utils import visualization_utils as vis_util
 
-def load_image_into_numpy_array(image):
-    (im_width, im_height) = image.size
-    return np.array(image.getdata()).reshape((im_height, im_width, 3)).astype(np.uint8)
+# Path to frozen detection graph. This is the actual model that is used for the object detection.
+PATH_TO_CKPT = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/new-tensorflow-dataset/models/model/export/frozen_inference_graph.pb'
+# List of the strings that is used to add correct label for each box.
+PATH_TO_LABELS = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/new-tensorflow-dataset/data/label_map.pbtxt'
+NUM_CLASSES = 8
+# Size, in inches, of the output images.
+IMAGE_SIZE = (12, 8)
+CONFIDENCE_THRESH = 0.5
+
+# Load tensorflow model
+detection_graph = tf.Graph()
+with detection_graph.as_default():
+    od_graph_def = tf.GraphDef()
+    with tf.gfile.GFile(PATH_TO_CKPT, 'rb') as fid:
+        serialized_graph = fid.read()
+        od_graph_def.ParseFromString(serialized_graph)
+        tf.import_graph_def(od_graph_def, name='')
+
+# Load label map
+label_map = label_map_util.load_labelmap(PATH_TO_LABELS)
+categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES, use_display_name=True)
+category_index = label_map_util.create_category_index(categories)
 
 def run_inference_for_single_image(image, graph):
     with graph.as_default():
@@ -77,57 +99,17 @@ def process_img(image_np, display):
           use_normalized_coordinates=True, line_thickness=8)
         plt.figure(figsize=IMAGE_SIZE)
         plt.imshow(image_np)
+        plt.show()
 
     return output_dict
 
-########### CHANGE BELOW FOR WHATEVER MODEL WE SELECT ###########
-
-# Path to frozen detection graph. This is the actual model that is used for the object detection.
-PATH_TO_CKPT = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/new-tensorflow-dataset/models/model/export/frozen_inference_graph.pb'
-# List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/new-tensorflow-dataset/data/label_map.pbtxt'
-NUM_CLASSES = 8
-
-# Load tensorflow model
-detection_graph = tf.Graph()
-with detection_graph.as_default():
-    od_graph_def = tf.GraphDef()
-    with tf.gfile.GFile(PATH_TO_CKPT, 'rb') as fid:
-        serialized_graph = fid.read()
-        od_graph_def.ParseFromString(serialized_graph)
-        tf.import_graph_def(od_graph_def, name='')
-
-# Load label map
-label_map = label_map_util.load_labelmap(PATH_TO_LABELS)
-categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES, use_display_name=True)
-category_index = label_map_util.create_category_index(categories)
-
-
-image_path = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/test-images/test1.jpg'
-
-# Size, in inches, of the output images.
-IMAGE_SIZE = (12, 8)
-
-########### CHANGE ABOVE FOR WHATEVER MODEL WE SELECT ###########
-
-# detection boxes = [y1, x1, y2, x2]
-# class = number from label_map.pbtxt
-# confidence = (confidence between 0 and 1)
-
-CONFIDENCE_THRESH = 0.5
-
-# Ensembling Stuff
-
-image = cv2.cvtColor(cv2.imread(image_path), cv2.COLOR_BGR2RGB)
-im_height = image.shape[0]
-im_width = image.shape[1]
-output_dict = process_img(image, True)
-
-#shrink the image to the region and rerun test
-for i in range(0, len(output_dict['detection_boxes'])) :
-    box = output_dict['detection_boxes'][i]
-    if(output_dict['detection_scores'][i] >= CONFIDENCE_THRESH):
-        new_img = image[int(box[0]*im_height):int(box[2]*im_height), int(box[1]*im_width):int(box[3]*im_width)]
-        process_img(new_img, True)
-
-plt.show()
+def predict_img(image, display):
+    output_dict = process_img(image, display)
+    prediction = Prediction()
+    for i in range(len(output_dict['detection_boxes'])) :
+        if(output_dict['detection_scores'][i] >= CONFIDENCE_THRESH):
+            detection_boxes = (output_dict['detection_boxes'][i])
+            new_box = Box(detection_boxes[0], detection_boxes[1], detection_boxes[2],
+                detection_boxes[3], output_dict['detection_scores'][i], output_dict['detection_classes'][i])
+            prediction.append_box(new_box)
+    return prediction
