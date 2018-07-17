@@ -1,0 +1,26 @@
+<annotation>
+	<folder>newspaper on ground</folder>
+	<filename>21. grunge-newspaper-flyer-vol-2-indieground-intended-for-newspaper-template-photoshop.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/newspaper on ground/21. grunge-newspaper-flyer-vol-2-indieground-intended-for-newspaper-template-photoshop.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>590</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>59</xmin>
+			<ymin>72</ymin>
+			<xmax>534</xmax>
+			<ymax>731</ymax>
+		</bndbox>
+	</object>
+</annotation>

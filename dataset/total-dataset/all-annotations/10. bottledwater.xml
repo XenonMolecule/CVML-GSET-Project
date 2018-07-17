@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>10. bottledwater.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/10. bottledwater.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>374</width>
+		<height>250</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>26</ymin>
+			<xmax>186</xmax>
+			<ymax>110</ymax>
+		</bndbox>
+	</object>
+</annotation>

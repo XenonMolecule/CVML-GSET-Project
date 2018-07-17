@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>19. water-bottle-dry-cracked-ground-74965880.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/19. water-bottle-dry-cracked-ground-74965880.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>221</xmin>
+			<ymin>312</ymin>
+			<xmax>702</xmax>
+			<ymax>566</ymax>
+		</bndbox>
+	</object>
+</annotation>

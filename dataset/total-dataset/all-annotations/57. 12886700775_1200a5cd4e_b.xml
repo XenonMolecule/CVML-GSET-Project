@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>57. 12886700775_1200a5cd4e_b.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/litter can/57. 12886700775_1200a5cd4e_b.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>175</xmin>
+			<ymin>125</ymin>
+			<xmax>598</xmax>
+			<ymax>917</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>97. 85899049-shredded-plastic-mineral-water-bottles-and-bottle-caps-on-the-grass-in-the-park-the-concept-of-envir.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/97. 85899049-shredded-plastic-mineral-water-bottles-and-bottle-caps-on-the-grass-in-the-park-the-concept-of-envir.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>866</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>446</xmin>
+			<ymin>372</ymin>
+			<xmax>1012</xmax>
+			<ymax>691</ymax>
+		</bndbox>
+	</object>
+</annotation>

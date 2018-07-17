@@ -1,0 +1,26 @@
+<annotation>
+	<folder>(cardboard on streets litter garbage)</folder>
+	<filename>31. garbage-bags-garbage-bags-cardboard-box-street-sao-paulo-105556921.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/(cardboard on streets litter garbage)/31. garbage-bags-garbage-bags-cardboard-box-street-sao-paulo-105556921.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>533</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cardboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>194</xmin>
+			<ymin>155</ymin>
+			<xmax>342</xmax>
+			<ymax>374</ymax>
+		</bndbox>
+	</object>
+</annotation>

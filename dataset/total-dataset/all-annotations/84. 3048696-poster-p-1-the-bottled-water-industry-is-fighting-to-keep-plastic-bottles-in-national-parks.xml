@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>84. 3048696-poster-p-1-the-bottled-water-industry-is-fighting-to-keep-plastic-bottles-in-national-parks.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/84. 3048696-poster-p-1-the-bottled-water-industry-is-fighting-to-keep-plastic-bottles-in-national-parks.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>283</xmin>
+			<ymin>35</ymin>
+			<xmax>1042</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+</annotation>

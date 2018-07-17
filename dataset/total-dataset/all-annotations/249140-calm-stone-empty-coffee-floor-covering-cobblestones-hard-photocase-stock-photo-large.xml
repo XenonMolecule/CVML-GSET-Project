@@ -1,0 +1,26 @@
+<annotation>
+	<folder>paper cup on floor</folder>
+	<filename>2. 49140-calm-stone-empty-coffee-floor-covering-cobblestones-hard-photocase-stock-photo-large.jpeg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/paper cup on floor/2. 49140-calm-stone-empty-coffee-floor-covering-cobblestones-hard-photocase-stock-photo-large.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>569</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>134</xmin>
+			<ymin>153</ymin>
+			<xmax>378</xmax>
+			<ymax>475</ymax>
+		</bndbox>
+	</object>
+</annotation>

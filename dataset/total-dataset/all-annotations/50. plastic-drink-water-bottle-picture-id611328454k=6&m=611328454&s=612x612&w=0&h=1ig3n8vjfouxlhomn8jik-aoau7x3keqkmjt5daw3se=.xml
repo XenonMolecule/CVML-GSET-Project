@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>50. plastic-drink-water-bottle-picture-id611328454?k=6&amp;m=611328454&amp;s=612x612&amp;w=0&amp;h=1ig3n8vjfouxlhomn8jik-aoau7x3keqkmjt5daw3se=.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/50. plastic-drink-water-bottle-picture-id611328454?k=6&amp;m=611328454&amp;s=612x612&amp;w=0&amp;h=1ig3n8vjfouxlhomn8jik-aoau7x3keqkmjt5daw3se=.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>344</width>
+		<height>612</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>91</xmin>
+			<ymin>22</ymin>
+			<xmax>248</xmax>
+			<ymax>554</ymax>
+		</bndbox>
+	</object>
+</annotation>

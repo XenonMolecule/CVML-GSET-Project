@@ -1,0 +1,26 @@
+<annotation>
+	<folder>plastic cup on ground</folder>
+	<filename>7. wpid-2011-07-23-17.44.37.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/plastic cup on ground/7. wpid-2011-07-23-17.44.37.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>675</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>268</xmin>
+			<ymin>166</ymin>
+			<xmax>852</xmax>
+			<ymax>620</ymax>
+		</bndbox>
+	</object>
+</annotation>

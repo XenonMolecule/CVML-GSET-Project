@@ -1,0 +1,26 @@
+<annotation>
+	<folder>plastic cup on ground</folder>
+	<filename>22. 44507859-coffee-drink-break-top-view-vintage-toned-concept-with-roasted-coffee-beans-ground-spoon-plastic-cup.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/plastic cup on ground/22. 44507859-coffee-drink-break-top-view-vintage-toned-concept-with-roasted-coffee-beans-ground-spoon-plastic-cup.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>450</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>55</xmin>
+			<ymin>127</ymin>
+			<xmax>165</xmax>
+			<ymax>264</ymax>
+		</bndbox>
+	</object>
+</annotation>

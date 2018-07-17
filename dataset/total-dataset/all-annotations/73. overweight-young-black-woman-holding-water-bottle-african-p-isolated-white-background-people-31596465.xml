@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>73. overweight-young-black-woman-holding-water-bottle-african-p-isolated-white-background-people-31596465.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/73. overweight-young-black-woman-holding-water-bottle-african-p-isolated-white-background-people-31596465.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>900</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>92</xmin>
+			<ymin>183</ymin>
+			<xmax>189</xmax>
+			<ymax>545</ymax>
+		</bndbox>
+	</object>
+</annotation>

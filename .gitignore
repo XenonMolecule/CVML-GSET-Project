@@ -8,3 +8,4 @@
 /dataset/new-tensorflow-dataset/models/ssd/eval/*
 /dataset/new-tensorflow-dataset/models/ssd/export/*
 /dataset/new-dataset/google-images-data/*
+/dataset/total-dataset/images/*

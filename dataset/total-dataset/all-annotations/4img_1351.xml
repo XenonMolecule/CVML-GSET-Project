@@ -1,0 +1,26 @@
+<annotation>
+	<folder>piece of paper on floor</folder>
+	<filename>4. img_1351.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/piece of paper on floor/4. img_1351.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>188</xmin>
+			<ymin>243</ymin>
+			<xmax>4000</xmax>
+			<ymax>2434</ymax>
+		</bndbox>
+	</object>
+</annotation>

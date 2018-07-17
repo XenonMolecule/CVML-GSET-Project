@@ -1,0 +1,26 @@
+<annotation>
+	<folder>plastic cup on ground</folder>
+	<filename>32. plastic-cup-nature-grass-how-garbage-68339912.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/plastic cup on ground/32. plastic-cup-nature-grass-how-garbage-68339912.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>533</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>258</xmin>
+			<ymin>145</ymin>
+			<xmax>524</xmax>
+			<ymax>443</ymax>
+		</bndbox>
+	</object>
+</annotation>

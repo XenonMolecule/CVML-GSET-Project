@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>49. garbage-plastic-concept-bottle-flattened-on-asphalt-street-ground-floor-c8fkmk.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/49. garbage-plastic-concept-bottle-flattened-on-asphalt-street-ground-floor-c8fkmk.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>450</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>83</xmin>
+			<ymin>78</ymin>
+			<xmax>353</xmax>
+			<ymax>245</ymax>
+		</bndbox>
+	</object>
+</annotation>
