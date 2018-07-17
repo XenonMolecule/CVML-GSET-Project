@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>42. gull-with-litter-5a43ba1147c26600368d06e9.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/litter can/42. gull-with-litter-5a43ba1147c26600368d06e9.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wrapper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>127</ymin>
+			<xmax>496</xmax>
+			<ymax>360</ymax>
+		</bndbox>
+	</object>
+</annotation>

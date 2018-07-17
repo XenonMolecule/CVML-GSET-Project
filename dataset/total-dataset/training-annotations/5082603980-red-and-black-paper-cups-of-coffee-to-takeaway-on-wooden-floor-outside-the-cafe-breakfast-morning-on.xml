@@ -1,0 +1,26 @@
+<annotation>
+	<folder>paper cup on floor</folder>
+	<filename>50. 82603980-red-and-black-paper-cups-of-coffee-to-takeaway-on-wooden-floor-outside-the-cafe-breakfast-morning-on.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/paper cup on floor/50. 82603980-red-and-black-paper-cups-of-coffee-to-takeaway-on-wooden-floor-outside-the-cafe-breakfast-morning-on.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>450</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>138</xmin>
+			<ymin>62</ymin>
+			<xmax>244</xmax>
+			<ymax>231</ymax>
+		</bndbox>
+	</object>
+</annotation>

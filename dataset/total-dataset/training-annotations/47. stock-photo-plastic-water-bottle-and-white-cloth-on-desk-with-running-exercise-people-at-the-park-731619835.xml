@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>47. stock-photo-plastic-water-bottle-and-white-cloth-on-desk-with-running-exercise-people-at-the-park-731619835.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/47. stock-photo-plastic-water-bottle-and-white-cloth-on-desk-with-running-exercise-people-at-the-park-731619835.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1500</width>
+		<height>1101</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>884</xmin>
+			<ymin>121</ymin>
+			<xmax>1179</xmax>
+			<ymax>848</ymax>
+		</bndbox>
+	</object>
+</annotation>

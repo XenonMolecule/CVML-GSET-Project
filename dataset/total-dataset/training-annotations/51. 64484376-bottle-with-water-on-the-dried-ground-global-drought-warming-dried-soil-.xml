@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>51. 64484376-bottle-with-water-on-the-dried-ground-global-drought-warming-dried-soil-.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/51. 64484376-bottle-with-water-on-the-dried-ground-global-drought-warming-dried-soil-.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>866</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>347</xmin>
+			<ymin>168</ymin>
+			<xmax>680</xmax>
+			<ymax>713</ymax>
+		</bndbox>
+	</object>
+</annotation>

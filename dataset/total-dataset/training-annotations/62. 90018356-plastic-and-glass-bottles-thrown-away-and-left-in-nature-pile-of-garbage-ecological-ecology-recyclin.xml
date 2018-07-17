@@ -1,0 +1,26 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>62. 90018356-plastic-and-glass-bottles-thrown-away-and-left-in-nature-pile-of-garbage-ecological-ecology-recyclin.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/glass bottle litter/62. 90018356-plastic-and-glass-bottles-thrown-away-and-left-in-nature-pile-of-garbage-ecological-ecology-recyclin.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>450</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>108</xmin>
+			<ymin>56</ymin>
+			<xmax>338</xmax>
+			<ymax>230</ymax>
+		</bndbox>
+	</object>
+</annotation>

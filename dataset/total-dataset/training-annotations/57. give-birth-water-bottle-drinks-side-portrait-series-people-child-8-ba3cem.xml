@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>57. give-birth-water-bottle-drinks-side-portrait-series-people-child-8-ba3cem.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/57. give-birth-water-bottle-drinks-side-portrait-series-people-child-8-ba3cem.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>953</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>607</xmin>
+			<ymin>196</ymin>
+			<xmax>1112</xmax>
+			<ymax>547</ymax>
+		</bndbox>
+	</object>
+</annotation>

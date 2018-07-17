@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>29. litter-b0jprc.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/litter can/29. litter-b0jprc.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>866</width>
+		<height>1390</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>515</ymin>
+			<xmax>778</xmax>
+			<ymax>1166</ymax>
+		</bndbox>
+	</object>
+</annotation>

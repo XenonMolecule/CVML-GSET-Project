@@ -1,0 +1,26 @@
+<annotation>
+	<folder>plastic cup on ground</folder>
+	<filename>27. closeup-of-ground-squirrel-drinking-out-of-discarded-white-plastic-c5y8yt.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/plastic cup on ground/27. closeup-of-ground-squirrel-drinking-out-of-discarded-white-plastic-c5y8yt.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>956</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>642</xmin>
+			<ymin>276</ymin>
+			<xmax>1218</xmax>
+			<ymax>744</ymax>
+		</bndbox>
+	</object>
+</annotation>

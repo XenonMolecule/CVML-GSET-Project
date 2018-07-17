@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>77. plastic-water-bottle-abandoned-on-beach-soussmassa-national-park-picture-id529461274.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/77. plastic-water-bottle-abandoned-on-beach-soussmassa-national-park-picture-id529461274.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>682</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>394</xmin>
+			<ymin>301</ymin>
+			<xmax>659</xmax>
+			<ymax>453</ymax>
+		</bndbox>
+	</object>
+</annotation>

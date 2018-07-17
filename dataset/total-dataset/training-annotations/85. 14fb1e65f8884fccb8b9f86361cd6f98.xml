@@ -1,0 +1,38 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>85. 14fb1e65f8884fccb8b9f86361cd6f98.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/glass bottle litter/85. 14fb1e65f8884fccb8b9f86361cd6f98.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>735</width>
+		<height>980</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>94</xmin>
+			<ymin>109</ymin>
+			<xmax>360</xmax>
+			<ymax>889</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>407</xmin>
+			<ymin>96</ymin>
+			<xmax>657</xmax>
+			<ymax>899</ymax>
+		</bndbox>
+	</object>
+</annotation>

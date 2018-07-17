@@ -1,0 +1,26 @@
+<annotation>
+	<folder>plastic cup on ground</folder>
+	<filename>5. 87722677-environment-and-nature-preservation-concept-empty-plastic-cup-thrown-away-on-the-ground-attitude-cle.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/plastic cup on ground/5. 87722677-environment-and-nature-preservation-concept-empty-plastic-cup-thrown-away-on-the-ground-attitude-cle.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>450</width>
+		<height>338</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>246</xmin>
+			<ymin>175</ymin>
+			<xmax>367</xmax>
+			<ymax>264</ymax>
+		</bndbox>
+	</object>
+</annotation>

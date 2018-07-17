@@ -1,0 +1,26 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>98. glass-bottles-thrown-in-the-forest-of-pawtuckaway-state-park-ayc4n7.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/glass bottle litter/98. glass-bottles-thrown-in-the-forest-of-pawtuckaway-state-park-ayc4n7.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>959</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>110</xmin>
+			<ymin>182</ymin>
+			<xmax>1115</xmax>
+			<ymax>613</ymax>
+		</bndbox>
+	</object>
+</annotation>

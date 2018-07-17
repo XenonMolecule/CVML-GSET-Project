@@ -1,0 +1,26 @@
+<annotation>
+	<folder>piece of paper on floor</folder>
+	<filename>44. 39591781-close-up-of-an-old-worn-blank-piece-of-paper-with-burnt-and-torn-edges-nailed-to-an-old-weathered-pl.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/piece of paper on floor/44. 39591781-close-up-of-an-old-worn-blank-piece-of-paper-with-burnt-and-torn-edges-nailed-to-an-old-weathered-pl.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>450</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>117</xmin>
+			<ymin>15</ymin>
+			<xmax>344</xmax>
+			<ymax>292</ymax>
+		</bndbox>
+	</object>
+</annotation>
