@@ -54,6 +54,8 @@ def create_tf_example(example):
   ymins = [] # List of normalized top y coordinates in bounding box (1 per box)
   ymaxs = [] # List of normalized bottom y coordinates in bounding box
   classes_text = [] # List of string class name of bounding box (1 per box)
+  if(width == 0):
+      print(filename)
   for val in example.iter('xmin'):
     xmins.append(int(val.text)/width)
   for val in example.iter('xmax'):

@@ -9,3 +9,4 @@
 /dataset/new-tensorflow-dataset/models/ssd/export/*
 /dataset/new-dataset/google-images-data/*
 /dataset/total-dataset/images/*
+/dataset/total-dataset/tensorflow/train.record
