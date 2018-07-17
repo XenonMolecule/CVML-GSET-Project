@@ -1,0 +1,26 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>46. 2-liter-glass-coke-bottle-2013-2.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\glass bottle litter\46. 2-liter-glass-coke-bottle-2013-2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>1152</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>215</xmin>
+			<ymin>82</ymin>
+			<xmax>572</xmax>
+			<ymax>1090</ymax>
+		</bndbox>
+	</object>
+</annotation>

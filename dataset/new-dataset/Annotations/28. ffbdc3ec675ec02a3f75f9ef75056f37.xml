@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>28. ffbdc3ec675ec02a3f75f9ef75056f37.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\litter can\28. ffbdc3ec675ec02a3f75f9ef75056f37.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3277</width>
+		<height>4096</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>625</xmin>
+			<ymin>2004</ymin>
+			<xmax>1877</xmax>
+			<ymax>3843</ymax>
+		</bndbox>
+	</object>
+</annotation>

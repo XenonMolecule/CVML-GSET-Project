@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>18. red-beverage-beer-smashed-art-container-can-litter-destruction-tin-544128.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\litter can\18. red-beverage-beer-smashed-art-container-can-litter-destruction-tin-544128.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>689</xmin>
+			<ymin>738</ymin>
+			<xmax>2294</xmax>
+			<ymax>3146</ymax>
+		</bndbox>
+	</object>
+</annotation>

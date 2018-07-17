@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>77. empty-can-of-fizzy-drink-wedged-between-seat-back-of-bench-near-burrator-bx837w.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\litter can\77. empty-can-of-fizzy-drink-wedged-between-seat-back-of-bench-near-burrator-bx837w.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>952</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>520</xmin>
+			<ymin>367</ymin>
+			<xmax>943</xmax>
+			<ymax>624</ymax>
+		</bndbox>
+	</object>
+</annotation>

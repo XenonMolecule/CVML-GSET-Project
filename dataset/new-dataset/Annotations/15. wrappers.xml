@@ -1,0 +1,38 @@
+<annotation>
+	<folder>sweet wrapper litter</folder>
+	<filename>15. wrappers.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\sweet wrapper litter\15. wrappers.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wrapper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>109</xmin>
+			<ymin>525</ymin>
+			<xmax>375</xmax>
+			<ymax>834</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>wrapper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>428</xmin>
+			<ymin>354</ymin>
+			<xmax>630</xmax>
+			<ymax>605</ymax>
+		</bndbox>
+	</object>
+</annotation>

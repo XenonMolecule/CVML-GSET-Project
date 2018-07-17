@@ -1,0 +1,26 @@
+<annotation>
+	<folder>newspaper on ground</folder>
+	<filename>50. img_4998.jpg</filename>
+	<path>/Users/erikatan/Downloads/newspaper on ground/50. img_4998.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>240</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>32</xmin>
+			<ymin>21</ymin>
+			<xmax>223</xmax>
+			<ymax>301</ymax>
+		</bndbox>
+	</object>
+</annotation>

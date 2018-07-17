@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>72. dsc_0171.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\litter can\72. dsc_0171.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>331</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>83</xmin>
+			<ymin>9</ymin>
+			<xmax>243</xmax>
+			<ymax>492</ymax>
+		</bndbox>
+	</object>
+</annotation>

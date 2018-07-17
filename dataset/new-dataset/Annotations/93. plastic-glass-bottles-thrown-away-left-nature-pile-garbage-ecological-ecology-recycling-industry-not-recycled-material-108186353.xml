@@ -1,0 +1,50 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>93. plastic-glass-bottles-thrown-away-left-nature-pile-garbage-ecological-ecology-recycling-industry-not-recycled-material-108186353.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\glass bottle litter\93. plastic-glass-bottles-thrown-away-left-nature-pile-garbage-ecological-ecology-recycling-industry-not-recycled-material-108186353.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>533</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>282</xmin>
+			<ymin>203</ymin>
+			<xmax>465</xmax>
+			<ymax>431</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>110</xmin>
+			<ymin>149</ymin>
+			<xmax>233</xmax>
+			<ymax>315</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>15</xmin>
+			<ymin>305</ymin>
+			<xmax>119</xmax>
+			<ymax>394</ymax>
+		</bndbox>
+	</object>
+</annotation>

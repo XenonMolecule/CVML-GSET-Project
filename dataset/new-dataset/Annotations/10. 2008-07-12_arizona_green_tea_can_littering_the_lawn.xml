@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>10. 2008-07-12_arizona_green_tea_can_littering_the_lawn.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\litter can\10. 2008-07-12_arizona_green_tea_can_littering_the_lawn.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3888</width>
+		<height>2592</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1203</xmin>
+			<ymin>692</ymin>
+			<xmax>2950</xmax>
+			<ymax>2136</ymax>
+		</bndbox>
+	</object>
+</annotation>

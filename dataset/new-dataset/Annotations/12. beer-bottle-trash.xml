@@ -1,0 +1,26 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>12. beer-bottle-trash.jpeg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\glass bottle litter\12. beer-bottle-trash.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1079</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>237</xmin>
+			<ymin>679</ymin>
+			<xmax>1831</xmax>
+			<ymax>1079</ymax>
+		</bndbox>
+	</object>
+</annotation>

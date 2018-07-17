@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>20. litterbeercan_099810-784484.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\litter can\20. litterbeercan_099810-784484.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>297</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>40</xmin>
+			<ymin>77</ymin>
+			<xmax>271</xmax>
+			<ymax>262</ymax>
+		</bndbox>
+	</object>
+</annotation>

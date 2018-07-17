@@ -1,0 +1,26 @@
+<annotation>
+	<folder>(cardboard on streets litter garbage)</folder>
+	<filename>38. 940x940.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\(cardboard on streets litter garbage)\38. 940x940.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>940</width>
+		<height>626</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cardboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>71</xmin>
+			<ymin>467</ymin>
+			<xmax>190</xmax>
+			<ymax>555</ymax>
+		</bndbox>
+	</object>
+</annotation>

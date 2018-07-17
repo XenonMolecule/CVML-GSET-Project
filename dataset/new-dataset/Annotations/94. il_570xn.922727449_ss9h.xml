@@ -1,0 +1,38 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>94. il_570xn.922727449_ss9h.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\glass bottle litter\94. il_570xn.922727449_ss9h.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>570</width>
+		<height>760</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>88</xmin>
+			<ymin>3</ymin>
+			<xmax>275</xmax>
+			<ymax>729</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>279</xmin>
+			<ymin>1</ymin>
+			<xmax>483</xmax>
+			<ymax>736</ymax>
+		</bndbox>
+	</object>
+</annotation>

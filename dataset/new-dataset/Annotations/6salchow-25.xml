@@ -1,0 +1,38 @@
+<annotation>
+	<folder>newspaper on ground</folder>
+	<filename>6. salchow-25.jpg</filename>
+	<path>/Users/erikatan/Downloads/newspaper on ground/6. salchow-25.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>525</width>
+		<height>517</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>60</xmin>
+			<ymin>132</ymin>
+			<xmax>478</xmax>
+			<ymax>453</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>265</xmin>
+			<ymin>405</ymin>
+			<xmax>406</xmax>
+			<ymax>499</ymax>
+		</bndbox>
+	</object>
+</annotation>

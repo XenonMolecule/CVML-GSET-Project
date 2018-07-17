@@ -1,0 +1,26 @@
+<annotation>
+	<folder>newspaper on ground</folder>
+	<filename>4. hqdefault.jpg</filename>
+	<path>/Users/erikatan/Downloads/newspaper on ground/4. hqdefault.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>89</xmin>
+			<ymin>112</ymin>
+			<xmax>345</xmax>
+			<ymax>305</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>newspaper on ground</folder>
+	<filename>36. a-wet-yellow-advertisers-newspaper-lying-neglected-on-the-ground-k4etpx.jpg</filename>
+	<path>/Users/erikatan/Downloads/newspaper on ground/36. a-wet-yellow-advertisers-newspaper-lying-neglected-on-the-ground-k4etpx.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>956</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>98</xmin>
+			<ymin>132</ymin>
+			<xmax>1300</xmax>
+			<ymax>733</ymax>
+		</bndbox>
+	</object>
+</annotation>

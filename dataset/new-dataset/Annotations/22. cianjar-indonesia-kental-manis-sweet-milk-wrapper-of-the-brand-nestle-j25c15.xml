@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sweet wrapper litter</folder>
+	<filename>22. cianjar-indonesia-kental-manis-sweet-milk-wrapper-of-the-brand-nestle-j25c15.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\sweet wrapper litter\22. cianjar-indonesia-kental-manis-sweet-milk-wrapper-of-the-brand-nestle-j25c15.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>955</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wrapper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>516</xmin>
+			<ymin>174</ymin>
+			<xmax>1040</xmax>
+			<ymax>747</ymax>
+		</bndbox>
+	</object>
+</annotation>

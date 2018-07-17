@@ -1,0 +1,26 @@
+<annotation>
+	<folder>(cardboard on streets litter garbage)</folder>
+	<filename>87. jwu.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\(cardboard on streets litter garbage)\87. jwu.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>860</width>
+		<height>615</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>158</xmin>
+			<ymin>452</ymin>
+			<xmax>455</xmax>
+			<ymax>601</ymax>
+		</bndbox>
+	</object>
+</annotation>

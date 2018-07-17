@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sweet wrapper litter</folder>
+	<filename>44. mcvities-penguin-plastic-wrapper-thrown-away-and-on-the-tide-line-j9h04w.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\sweet wrapper litter\44. mcvities-penguin-plastic-wrapper-thrown-away-and-on-the-tide-line-j9h04w.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>346</width>
+		<height>540</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wrapper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>48</xmin>
+			<ymin>281</ymin>
+			<xmax>257</xmax>
+			<ymax>501</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>(cardboard on streets litter garbage)</folder>
+	<filename>46. garbage-big-two-metal-dumpster-cans-full-overflow-litter-polluting-street-city-113982779.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\(cardboard on streets litter garbage)\46. garbage-big-two-metal-dumpster-cans-full-overflow-litter-polluting-street-city-113982779.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>531</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cardboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>520</xmin>
+			<ymin>148</ymin>
+			<xmax>612</xmax>
+			<ymax>238</ymax>
+		</bndbox>
+	</object>
+</annotation>

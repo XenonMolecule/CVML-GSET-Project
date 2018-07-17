@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sweet wrapper litter</folder>
+	<filename>80. img_2135.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\sweet wrapper litter\80. img_2135.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>427</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>185</xmin>
+			<ymin>97</ymin>
+			<xmax>384</xmax>
+			<ymax>329</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,50 @@
+<annotation>
+	<folder>(cardboard on streets litter garbage)</folder>
+	<filename>16. img_8619.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\(cardboard on streets litter garbage)\16. img_8619.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>5184</width>
+		<height>3456</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cardboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2008</xmin>
+			<ymin>1227</ymin>
+			<xmax>2887</xmax>
+			<ymax>1719</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cardboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>745</xmin>
+			<ymin>2628</ymin>
+			<xmax>1299</xmax>
+			<ymax>3182</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cardboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3920</xmin>
+			<ymin>2170</ymin>
+			<xmax>5084</xmax>
+			<ymax>2628</ymax>
+		</bndbox>
+	</object>
+</annotation>

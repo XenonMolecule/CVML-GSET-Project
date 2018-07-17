@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>56. a-discarded-stella-artois-can-littering-the-countryside-bm77b9.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\litter can\56. a-discarded-stella-artois-can-littering-the-countryside-bm77b9.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>977</width>
+		<height>1390</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>78</xmin>
+			<ymin>209</ymin>
+			<xmax>915</xmax>
+			<ymax>1148</ymax>
+		</bndbox>
+	</object>
+</annotation>

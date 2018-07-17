@@ -1,0 +1,26 @@
+<annotation>
+	<folder>newspaper on ground</folder>
+	<filename>11. 041813_newspapers_via_flickr_ns_newsflash.jpg</filename>
+	<path>/Users/erikatan/Downloads/newspaper on ground/11. 041813_newspapers_via_flickr_ns_newsflash.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>308</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>16</ymin>
+			<xmax>486</xmax>
+			<ymax>302</ymax>
+		</bndbox>
+	</object>
+</annotation>

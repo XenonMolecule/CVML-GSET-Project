@@ -1,0 +1,26 @@
+<annotation>
+	<folder>paper cup on floor</folder>
+	<filename>3. depositphotos_160967210-stock-photo-ripple-white-paper-cup-to.jpg</filename>
+	<path>/Users/erikatan/Downloads/paper cup on floor/3. depositphotos_160967210-stock-photo-ripple-white-paper-cup-to.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>1167</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>655</xmin>
+			<ymin>221</ymin>
+			<xmax>1080</xmax>
+			<ymax>911</ymax>
+		</bndbox>
+	</object>
+</annotation>

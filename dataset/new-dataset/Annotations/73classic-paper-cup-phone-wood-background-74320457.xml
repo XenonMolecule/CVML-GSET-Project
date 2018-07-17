@@ -1,0 +1,26 @@
+<annotation>
+	<folder>paper cup on floor</folder>
+	<filename>73. classic-paper-cup-phone-wood-background-74320457.jpg</filename>
+	<path>/Users/erikatan/Downloads/paper cup on floor/73. classic-paper-cup-phone-wood-background-74320457.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>533</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>88</xmin>
+			<ymin>262</ymin>
+			<xmax>253</xmax>
+			<ymax>465</ymax>
+		</bndbox>
+	</object>
+</annotation>

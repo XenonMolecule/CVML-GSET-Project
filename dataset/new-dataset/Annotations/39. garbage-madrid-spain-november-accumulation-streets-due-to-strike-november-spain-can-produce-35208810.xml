@@ -1,0 +1,50 @@
+<annotation>
+	<folder>(cardboard on streets litter garbage)</folder>
+	<filename>39. garbage-madrid-spain-november-accumulation-streets-due-to-strike-november-spain-can-produce-35208810.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\(cardboard on streets litter garbage)\39. garbage-madrid-spain-november-accumulation-streets-due-to-strike-november-spain-can-produce-35208810.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>596</width>
+		<height>900</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cardboard</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>533</ymin>
+			<xmax>168</xmax>
+			<ymax>684</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cardboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>127</xmin>
+			<ymin>405</ymin>
+			<xmax>274</xmax>
+			<ymax>562</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cardboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>309</xmin>
+			<ymin>406</ymin>
+			<xmax>487</xmax>
+			<ymax>530</ymax>
+		</bndbox>
+	</object>
+</annotation>

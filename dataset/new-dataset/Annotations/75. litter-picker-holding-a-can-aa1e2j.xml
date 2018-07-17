@@ -1,0 +1,38 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>75. litter-picker-holding-a-can-aa1e2j.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\litter can\75. litter-picker-holding-a-can-aa1e2j.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>956</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>496</xmin>
+			<ymin>279</ymin>
+			<xmax>768</xmax>
+			<ymax>559</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>696</xmin>
+			<ymin>732</ymin>
+			<xmax>927</xmax>
+			<ymax>865</ymax>
+		</bndbox>
+	</object>
+</annotation>

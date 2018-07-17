@@ -1,0 +1,38 @@
+<annotation>
+	<folder>sweet wrapper litter</folder>
+	<filename>5. discarded-chocolate-bar-wrappers-on-a-station-platform-eb3exw.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\sweet wrapper litter\5. discarded-chocolate-bar-wrappers-on-a-station-platform-eb3exw.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>956</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wrapper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>390</xmin>
+			<ymin>260</ymin>
+			<xmax>713</xmax>
+			<ymax>716</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>wrapper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>689</xmin>
+			<ymin>252</ymin>
+			<xmax>1109</xmax>
+			<ymax>794</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>piece of paper on floor</folder>
+	<filename>5. 4ad55d2c2e75fe8a1e3e9d623edc0aae--tissue-paper-interesting-stuff.jpg</filename>
+	<path>/Users/erikatan/Downloads/piece of paper on floor/5. 4ad55d2c2e75fe8a1e3e9d623edc0aae--tissue-paper-interesting-stuff.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>236</width>
+		<height>314</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>82</xmin>
+			<ymin>72</ymin>
+			<xmax>152</xmax>
+			<ymax>186</ymax>
+		</bndbox>
+	</object>
+</annotation>

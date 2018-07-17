@@ -1,0 +1,26 @@
+<annotation>
+	<folder>paper cup on floor</folder>
+	<filename>71. 8718f99e2e548dade0c7558934f28f9e.jpg</filename>
+	<path>/Users/erikatan/Downloads/paper cup on floor/71. 8718f99e2e548dade0c7558934f28f9e.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>685</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>73</xmin>
+			<ymin>166</ymin>
+			<xmax>410</xmax>
+			<ymax>685</ymax>
+		</bndbox>
+	</object>
+</annotation>

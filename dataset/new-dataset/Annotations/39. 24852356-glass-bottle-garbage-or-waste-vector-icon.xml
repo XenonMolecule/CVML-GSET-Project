@@ -1,0 +1,26 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>39. 24852356-glass-bottle-garbage-or-waste-vector-icon.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\glass bottle litter\39. 24852356-glass-bottle-garbage-or-waste-vector-icon.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>207</xmin>
+			<ymin>90</ymin>
+			<xmax>532</xmax>
+			<ymax>728</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>82. e81cee466c42f48ee0e276b980d6a15d--litter-box-glass-bottles.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\glass bottle litter\82. e81cee466c42f48ee0e276b980d6a15d--litter-box-glass-bottles.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>236</width>
+		<height>355</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>79</xmin>
+			<ymin>95</ymin>
+			<xmax>187</xmax>
+			<ymax>297</ymax>
+		</bndbox>
+	</object>
+</annotation>

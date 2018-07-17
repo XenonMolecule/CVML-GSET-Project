@@ -1,0 +1,26 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>19. glass-bottle.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\glass bottle litter\19. glass-bottle.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1194</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>scrap</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>283</xmin>
+			<ymin>453</ymin>
+			<xmax>1832</xmax>
+			<ymax>1094</ymax>
+		</bndbox>
+	</object>
+</annotation>

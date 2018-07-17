@@ -1,0 +1,38 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>89. 3f8d7320c380e70aafc88af8d891ce6f.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\glass bottle litter\89. 3f8d7320c380e70aafc88af8d891ce6f.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>298</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>65</ymin>
+			<xmax>104</xmax>
+			<ymax>268</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>306</xmin>
+			<ymin>68</ymin>
+			<xmax>389</xmax>
+			<ymax>263</ymax>
+		</bndbox>
+	</object>
+</annotation>

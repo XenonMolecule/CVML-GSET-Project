@@ -1,0 +1,26 @@
+<annotation>
+	<folder>paper cup on floor</folder>
+	<filename>68. plainpapercup-500x500.png</filename>
+	<path>/Users/erikatan/Downloads/paper cup on floor/68. plainpapercup-500x500.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>280</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>28</xmin>
+			<ymin>54</ymin>
+			<xmax>245</xmax>
+			<ymax>253</ymax>
+		</bndbox>
+	</object>
+</annotation>

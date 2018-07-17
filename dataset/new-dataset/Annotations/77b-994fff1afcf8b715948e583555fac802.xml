@@ -1,0 +1,26 @@
+<annotation>
+	<folder>plastic cup on ground</folder>
+	<filename>77. b-994fff1afcf8b715948e583555fac802.jpg</filename>
+	<path>/Users/erikatan/Downloads/plastic cup on ground/77. b-994fff1afcf8b715948e583555fac802.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>735</width>
+		<height>478</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>61</xmin>
+			<ymin>109</ymin>
+			<xmax>630</xmax>
+			<ymax>451</ymax>
+		</bndbox>
+	</object>
+</annotation>

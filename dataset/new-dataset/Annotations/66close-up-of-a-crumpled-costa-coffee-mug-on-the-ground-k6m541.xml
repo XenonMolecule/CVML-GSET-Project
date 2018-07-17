@@ -1,0 +1,26 @@
+<annotation>
+	<folder>plastic cup on ground</folder>
+	<filename>66. close-up-of-a-crumpled-costa-coffee-mug-on-the-ground-k6m541.jpg</filename>
+	<path>/Users/erikatan/Downloads/plastic cup on ground/66. close-up-of-a-crumpled-costa-coffee-mug-on-the-ground-k6m541.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>956</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>110</xmin>
+			<ymin>28</ymin>
+			<xmax>774</xmax>
+			<ymax>792</ymax>
+		</bndbox>
+	</object>
+</annotation>

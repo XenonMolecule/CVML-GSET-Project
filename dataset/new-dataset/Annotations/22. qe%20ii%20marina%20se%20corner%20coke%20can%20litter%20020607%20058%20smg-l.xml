@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>22. qe%20ii%20marina%20se%20corner%20coke%20can%20litter%20020607%20058%20smg-l.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\litter can\22. qe%20ii%20marina%20se%20corner%20coke%20can%20litter%20020607%20058%20smg-l.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>205</xmin>
+			<ymin>191</ymin>
+			<xmax>628</xmax>
+			<ymax>431</ymax>
+		</bndbox>
+	</object>
+</annotation>

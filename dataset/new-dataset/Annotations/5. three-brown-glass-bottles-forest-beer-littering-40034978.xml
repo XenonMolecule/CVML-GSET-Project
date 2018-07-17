@@ -1,0 +1,38 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>5. three-brown-glass-bottles-forest-beer-littering-40034978.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\glass bottle litter\5. three-brown-glass-bottles-forest-beer-littering-40034978.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>240</width>
+		<height>160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>94</xmin>
+			<ymin>42</ymin>
+			<xmax>156</xmax>
+			<ymax>116</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>24</xmin>
+			<ymin>51</ymin>
+			<xmax>122</xmax>
+			<ymax>99</ymax>
+		</bndbox>
+	</object>
+</annotation>

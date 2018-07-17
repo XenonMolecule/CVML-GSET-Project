@@ -1,0 +1,26 @@
+<annotation>
+	<folder>glass bottle litter</folder>
+	<filename>30. 56585811-plastic-and-glass-bottle-and-bottle-caps-on-grass-in-park-concept-of-environmental-protection-litter.jpg</filename>
+	<path>C:\Users\ethan\Downloads\google-images-download-master\google-images-download-master\New\glass bottle litter\30. 56585811-plastic-and-glass-bottle-and-bottle-caps-on-grass-in-park-concept-of-environmental-protection-litter.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>866</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>243</xmin>
+			<ymin>263</ymin>
+			<xmax>584</xmax>
+			<ymax>685</ymax>
+		</bndbox>
+	</object>
+</annotation>
