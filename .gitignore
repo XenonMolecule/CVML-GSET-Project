@@ -1,6 +1,7 @@
 /dataset/general-dataset
 /dataset/tensorflow-dataset/models/model/train/*
 /dataset/tensorflow-dataset/models/model/eval/*
+/dataset/new-tensorflow-dataset/data/train.record
 /dataset/new-tensorflow-dataset/models/model/train/*
 /dataset/new-tensorflow-dataset/models/model/eval/*
 /dataset/new-tensorflow-dataset/models/model/export/*
@@ -10,3 +11,5 @@
 /dataset/new-dataset/google-images-data/*
 /dataset/total-dataset/images/*
 /dataset/total-dataset/tensorflow/train.record
+/tensorflow-dataset-ssd/models/model/train/*
+/tensorflow-dataset-ssd/models/model/eval/*
