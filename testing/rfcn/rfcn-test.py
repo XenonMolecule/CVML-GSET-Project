@@ -24,10 +24,10 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util
 
 # Path to frozen detection graph. This is the actual model that is used for the object detection.
-PATH_TO_CKPT = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/new-tensorflow-dataset/models/model/export/frozen_inference_graph.pb'
+PATH_TO_CKPT = 'C:/Users/micha/OneDrive/Documents/\GitHub/CVML-GSET-Project/detector-models/rfcnmodel/models/rfcn/export/frozen_inference_graph.pb'
 
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/new-tensorflow-dataset/data/label_map.pbtxt'
+PATH_TO_LABELS = 'C:/Users/micha/OneDrive/Documents/\GitHub/CVML-GSET-Project/detector-models/rfcnmodel/data/label_map.pbtxt'
 
 NUM_CLASSES = 8
 
@@ -50,7 +50,7 @@ def load_image_into_numpy_array(image):
     return np.array(image.getdata()).reshape((im_height, im_width, 3)).astype(np.uint8)
 
 PATH_TO_TEST_IMAGES_DIR = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/test-images'
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'test{}.jpg'.format(i)) for i in range(1, 3) ]
+TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'test{}.jpg'.format(i)) for i in range(1, 4) ]
 
 # Size, in inches, of the output images.
 IMAGE_SIZE = (12, 8)

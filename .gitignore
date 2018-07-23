@@ -13,3 +13,10 @@
 /dataset/total-dataset/tensorflow/train.record
 /tensorflow-dataset-ssd/models/model/train/*
 /tensorflow-dataset-ssd/models/model/eval/*
+/detector-models/rfcnmodel/models/rfcn/eval/*
+/detector-models/rfcnmodel/models/rfcn/train/*
+/detector-models/rfcnmodel/models/rfcn/export/*
+/detector-models/rfcnmodel/data/train.record
+/detector-models/rfcnmodel/data/test.record
+/detector-models/ssdmodel/data/train.record
+/detector-models/ssdmodel/data/test.record
