@@ -1,0 +1,39 @@
+item {
+  id: 1,
+  name: "bottle"
+}
+
+item {
+  id: 2,
+  name: "can"
+}
+
+item {
+  id: 3,
+  name: "container"
+}
+
+item {
+  id: 4,
+  name: "wrapper"
+}
+
+item {
+  id: 5,
+  name: "paper"
+}
+
+item {
+  id: 6,
+  name: "cardboard"
+}
+
+item {
+  id: 7,
+  name: "cup"
+}
+
+item {
+  id: 8,
+  name: "scrap"
+}
