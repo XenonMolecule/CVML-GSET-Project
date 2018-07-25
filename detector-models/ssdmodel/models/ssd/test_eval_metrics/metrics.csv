@@ -1,0 +1,9 @@
+PascalBoxes_Precision/mAP@0.5IOU,0.7620637320795007
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/bottle,0.8274114735564141
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/can,0.852464995833935
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/container,0.9056821382217144
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/wrapper,0.5817712413587361
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/paper,0.9005461370661224
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cardboard,0.8832151227800502
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/cup,0.3827924851927713
+PascalBoxes_PerformanceByCategory/AP@0.5IOU/scrap,0.7626262626262627

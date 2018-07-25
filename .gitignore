@@ -16,7 +16,12 @@
 /detector-models/rfcnmodel/models/rfcn/eval/*
 /detector-models/rfcnmodel/models/rfcn/train/*
 /detector-models/rfcnmodel/models/rfcn/export/*
+/detector-models/rfcnmodel/models/rfcn/export2/*
 /detector-models/rfcnmodel/data/train.record
 /detector-models/rfcnmodel/data/test.record
 /detector-models/ssdmodel/data/train.record
 /detector-models/ssdmodel/data/test.record
+/detector-models/ssdmodel/models/ssd/eval/*
+/detector-models/ssdmodel/models/ssd/train/*
+/detector-models/ssdmodel/models/ssd/export/*
+/dataset/new-tensorflow-dataset/data/train.record

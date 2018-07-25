@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sweet wrapper litter</folder>
+	<filename>94. litter.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/sweet wrapper litter/94. litter.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>300</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cup</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>156</xmin>
+			<ymin>121</ymin>
+			<xmax>352</xmax>
+			<ymax>235</ymax>
+		</bndbox>
+	</object>
+</annotation>

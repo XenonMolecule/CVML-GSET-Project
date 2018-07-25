@@ -33,8 +33,10 @@ class MyTCPHandler(socketserver.BaseRequestHandler):
 
     def handle(self):
         # self.request is the TCP socket connected to the client
+        print("howdy")
         self.data = self.request.recv(24000).strip()
         image = cv2.imread(io.BytesIO(self.data))
+        print(image.shape)
         cv2.imshow(image)
 
 if __name__ == "__main__":
