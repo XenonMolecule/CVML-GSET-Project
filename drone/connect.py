@@ -19,12 +19,15 @@ while True:
     size = unpack('!i', buf)
     print("receiving %s bytes" % size)
     img = b''
-    img = client_socket.recv(size[0]+4)
-    if(not size[0] > 30000):
+    if(size[0] > 0):
+        img = client_socket.recv(size[0]+4)
+    if(not size[0] > 30000 and not size[0] < 0):
         image = open('test.jpg', 'wb')
         image.write(img)
         print("Check test.jpg")
         image_np = cv2.imread('test.jpg')
         cv2.imshow("Drone Feed :)", image_np)
+        if(cv2.waitKey(1) & 0xFF == ord('q')):
+            break
 
 cv2.waitKey()
