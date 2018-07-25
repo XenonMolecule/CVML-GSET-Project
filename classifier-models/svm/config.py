@@ -1,0 +1,51 @@
+import configparser as cp
+import json
+
+config = cp.RawConfigParser()
+config.read('../../classifier-dataset/config/config.cfg')
+
+orientations = config.getint("hog", "orientations")
+pixels_per_cell = json.loads(config.get("hog", "pixels_per_cell"))
+cells_per_block = json.loads(config.get("hog", "cells_per_block"))
+visualize = config.getboolean("hog", "visualize")
+normalize = config.getboolean("hog", "normalize")
+bottle_feat_path = config.get("paths", "bottle_feat_path")
+can_feat_path = config.get("paths", "can_feat_path")
+cardboard_feat_path = config.get("paths", "cardboard_feat_path")
+container_feat_path = config.get("paths", "container_feat_path")
+cup_feat_path = config.get("paths", "cup_feat_path")
+paper_feat_path = config.get("paths", "paper_feat_path")
+scrap_feat_path = config.get("paths", "scrap_feat_path")
+wrapper_feat_path = config.get("paths", "wrapper_feat_path")
+bottle_train_im_path = config.get("paths", "bottle_train_im_path")
+can_train_im_path = config.get("paths", "can_train_im_path")
+cardboard_train_im_path = config.get("paths", "cardboard_train_im_path")
+container_train_im_path = config.get("paths", "container_train_im_path")
+cup_train_im_path = config.get("paths", "cup_train_im_path")
+paper_train_im_path = config.get("paths", "paper_train_im_path")
+scrap_train_im_path = config.get("paths", "scrap_train_im_path")
+wrapper_train_im_path = config.get("paths", "wrapper_train_im_path")
+bottle_test_im_path = config.get("paths", "bottle_test_im_path")
+can_test_im_path = config.get("paths", "can_test_im_path")
+cardboard_test_im_path = config.get("paths", "cardboard_test_im_path")
+container_test_im_path = config.get("paths", "container_test_im_path")
+cup_test_im_path = config.get("paths", "cup_test_im_path")
+paper_test_im_path = config.get("paths", "paper_test_im_path")
+scrap_test_im_path = config.get("paths", "scrap_test_im_path")
+wrapper_test_im_path = config.get("paths", "wrapper_test_im_path")
+all_bottle_im_path = config.get("paths", "all_bottle_im_path")
+all_can_im_path = config.get("paths", "all_can_im_path")
+all_cardboard_im_path = config.get("paths", "all_cardboard_im_path")
+all_container_im_path = config.get("paths", "all_container_im_path")
+all_cup_im_path = config.get("paths", "all_cup_im_path")
+all_paper_im_path = config.get("paths", "all_paper_im_path")
+all_scrap_im_path = config.get("paths", "all_scrap_im_path")
+all_wrapper_im_path = config.get("paths", "all_wrapper_im_path")
+model_linearsvc_path = config.get("paths", "model_linearsvc_path")
+model_linear_path = config.get("paths", "model_linear_path")
+model_rbf_path = config.get("paths", "model_rbf_path")
+all_im_paths = [all_bottle_im_path, all_can_im_path, all_cardboard_im_path, all_container_im_path, all_cup_im_path, all_paper_im_path, all_scrap_im_path, all_wrapper_im_path]
+train_im_paths = [bottle_train_im_path, can_train_im_path, cardboard_train_im_path, container_train_im_path, cup_train_im_path, paper_train_im_path, scrap_train_im_path, wrapper_train_im_path]
+test_im_paths = [bottle_test_im_path, can_test_im_path, cardboard_test_im_path, container_test_im_path, cup_test_im_path, paper_test_im_path, scrap_test_im_path, wrapper_test_im_path]
+feat_paths = [bottle_feat_path, can_feat_path, cardboard_feat_path, container_feat_path, cup_feat_path, paper_feat_path, scrap_feat_path, wrapper_feat_path]
+model_paths = [model_linearsvc_path, model_linear_path, model_rbf_path]
