@@ -15,6 +15,7 @@ from io import StringIO
 from matplotlib import pyplot as plt
 from PIL import Image
 from time import sleep
+from threading import Thread
 
 # This is needed since the notebook is stored in the object_detection folder.
 sys.path.append("C:\\Users\\micha\\OneDrive\\Documents\\GitHub\\models\\research")
@@ -27,6 +28,50 @@ if tf.__version__ < '1.4.0':
 from utils import label_map_util
 from utils import visualization_utils as vis_util
 
+images_to_process = []
+
+class DroneVideoStream:
+    def __init__(self):
+        self.stopped = False
+
+    def start(self):
+		# start the thread to read frames from the video stream
+        Thread(target=self.update, args=()).start()
+        return self
+
+    def update(self):
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+        s.bind(('localhost', 9090))
+        s.listen(1)
+
+        client_socket, addr = s.accept()
+        print("Got Connection")
+        while not self.stopped:
+            print("Running")
+            buf = b''
+            while len(buf)<4:
+                buf += client_socket.recv(4-len(buf))
+            size = unpack('!i', buf)
+            img = b''
+            if(size[0] > 0):
+                img = client_socket.recv(size[0]+4)
+            if(not size[0] > 30000 and not size[0] < 0):
+                image = open('test.jpg', 'wb')
+                image.write(img)
+                image_np = cv2.imread('test.jpg')
+                images_to_process.append(image_np)
+                if(cv2.waitKey(1) & 0xFF == ord('q')):
+                    cv2.destroyAllWindows()
+                    break
+
+        cv2.waitKey(1)
+
+    def stop(self):
+		# indicate that the thread should be stopped
+        self.stopped = True
+
+droneVS = DroneVideoStream()
 
 # Path to frozen detection graph. This is the actual model that is used for the object detection.
 PATH_TO_CKPT = 'C:/Users/micha/OneDrive/Documents/\GitHub/CVML-GSET-Project/detector-models/rfcnmodel/models/rfcn/export/frozen_inference_graph.pb'
@@ -61,28 +106,26 @@ TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'test{}.jpg'.format(i
 IMAGE_SIZE = (12, 8)
 
 graph = detection_graph
+loop_count = 0
 with graph.as_default():
     with tf.Session() as sess:
 
-        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        droneVS.start()
 
-        s.bind(('localhost', 9090))
-        s.listen(1)
-
-        client_socket, addr = s.accept()
-        print("Got Connection")
         while True:
-            buf = b''
-            while len(buf)<4:
-                buf += client_socket.recv(4-len(buf))
-            size = unpack('!i', buf)
-            img = b''
-            if(size[0] > 0):
-                img = client_socket.recv(size[0]+4)
-            if(not size[0] > 30000 and not size[0] < 0):
-                image_file = open('test.jpg', 'wb')
-                image_file.write(img)
-                image = cv2.imread('test.jpg')
+            if loop_count == 1:
+                images_to_process = []
+            if(len(images_to_process) > 0):
+                image = images_to_process.pop(0)
+                # Purposefully drop frames to catch up
+                if(len(images_to_process) > 5):
+                    image = images_to_process.pop(0)
+                if(len(images_to_process) > 10):
+                    images_to_process.pop(0)
+                    image = images_to_process.pop(0)
+                if(len(images_to_process) > 50):
+                    image = images_to_process.pop(0)
+                    images_to_process = []
                 if(type(image) == np.ndarray):
                     # Get handles to input and output tensors
                     ops = tf.get_default_graph().get_operations()
@@ -121,9 +164,11 @@ with graph.as_default():
                       category_index, instance_masks=output_dict.get('detection_masks'),
                       use_normalized_coordinates=True, line_thickness=8)
                     cv2.imshow('object detection', cv2.resize(image, (800, 600)))
+                    loop_count += 1
                     if(cv2.waitKey(25) & 0xFF == ord('q')):
                         cv2.destroyAllWindows()
                         break
+                else:
+                    sleep(0.05)
 
-        cv2.waitKey(1)
-        cv2.destroyAllWindows()
+droneVS.stop()
