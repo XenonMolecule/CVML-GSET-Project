@@ -41,6 +41,8 @@ NUM_CLASSES = 8
 IMAGE_SIZE = (12, 8)
 CONFIDENCE_THRESH = 0.5
 
+cap = cv2.VideoCapture(0)
+
 # Load tensorflow model
 detection_graph1 = tf.Graph()
 with detection_graph1.as_default():
@@ -89,12 +91,9 @@ def display_prediction(image, prediction):
       prediction.get_class_labels(), prediction.get_confidences(),
       category_index, use_normalized_coordinates=True,
       line_thickness=8)
-    plt.figure(figsize=IMAGE_SIZE)
-    plt.imshow(image)
-    plt.show()
+    cv2.imshow('object detection', cv2.resize(image, (800, 600)))
 
 def run_ensemble(graph1, graph2):
-    image = cv2.cvtColor(cv2.imread(PATH_TO_IMAGE), cv2.COLOR_BGR2RGB)
     # INITIALIZE DETECTOR 1
     with tf.Session(graph=graph1) as sess1:
         # Get handles to input and output tensors
@@ -144,37 +143,43 @@ def run_ensemble(graph1, graph2):
             image_tensor2 = tf.get_default_graph().get_tensor_by_name('image_tensor:0')
 
             # ACTUALLY RUN THE ENSEMBLER
+            while True:
+                ret, image = cap.read()
+                image = cv2.resize(image, (640, 480))
 
-            final_prediction = Prediction()
+                final_prediction = Prediction()
 
-            # Run inference
-            prediction_1 = fix_output_dict(sess1.run(tensor_dict1, feed_dict={image_tensor1: np.expand_dims(image, 0)}))
+                # Run inference
+                prediction_1 = fix_output_dict(sess1.run(tensor_dict1, feed_dict={image_tensor1: np.expand_dims(image, 0)}))
 
-            for box in prediction_1.get_boxes():
-                new_img = box.splice_img(image)
-                prediction_n = fix_output_dict(sess2.run(tensor_dict2, feed_dict={image_tensor2: np.expand_dims(new_img, 0)}))
-                matches = 0
-                confidences = []
-                for mini_box in prediction_n.get_boxes():
-                    class_prediction = classifier.predict_img(mini_box.splice_img(new_img), False)
-                    confidences.append(class_prediction.get_confidence())
-                    if(mini_box.class_label == class_prediction.class_label):
-                        matches += 1
-                if(matches == len(prediction_n.get_boxes())):
-                    i = 0
+                for box in prediction_1.get_boxes():
+                    new_img = box.splice_img(image)
+                    prediction_n = fix_output_dict(sess2.run(tensor_dict2, feed_dict={image_tensor2: np.expand_dims(new_img, 0)}))
+                    matches = 0
+                    confidences = []
                     for mini_box in prediction_n.get_boxes():
-                        box_coords = box.get_coordinates_absolute(image)
-                        mini_box_coords = mini_box.get_coordinates_absolute(new_img)
-                        im_height = image.shape[0]
-                        im_width = image.shape[1]
-                        true_box = Box((box_coords[0] + mini_box_coords[0])/im_height, (box_coords[1] + mini_box_coords[1])/im_width,
-                          (box_coords[0] + mini_box_coords[2])/im_height, (box_coords[1] + mini_box_coords[3])/im_width, confidences[i], mini_box.get_class_label())
-                        final_prediction.append_box(true_box)
-                        i += 1
-                else:
-                    final_prediction.append_box(box)
+                        class_prediction = classifier.predict_img(mini_box.splice_img(new_img), False)
+                        confidences.append(class_prediction.get_confidence())
+                        if(mini_box.class_label == class_prediction.class_label):
+                            matches += 1
+                    if(matches == len(prediction_n.get_boxes())):
+                        i = 0
+                        for mini_box in prediction_n.get_boxes():
+                            box_coords = box.get_coordinates_absolute(image)
+                            mini_box_coords = mini_box.get_coordinates_absolute(new_img)
+                            im_height = image.shape[0]
+                            im_width = image.shape[1]
+                            true_box = Box((box_coords[0] + mini_box_coords[0])/im_height, (box_coords[1] + mini_box_coords[1])/im_width,
+                              (box_coords[0] + mini_box_coords[2])/im_height, (box_coords[1] + mini_box_coords[3])/im_width, confidences[i], mini_box.get_class_label())
+                            final_prediction.append_box(true_box)
+                            i += 1
+                    else:
+                        final_prediction.append_box(box)
 
-            display_prediction(image, final_prediction)
+                display_prediction(image, final_prediction)
+                if(cv2.waitKey(25) & 0xFF == ord('q')):
+                    cv2.destroyAllWindows()
+                    break
 
 run_ensemble(detection_graph1, detection_graph2)
 
