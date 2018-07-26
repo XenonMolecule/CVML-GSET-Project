@@ -1,0 +1,26 @@
+<annotation>
+	<folder>water-bottles</folder>
+	<filename>41. stock-photo-water-bottles-on-dry-and-cracked-ground-abstract-images-of-natural-disasters-and-the-effects-of-1055140475.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/water-bottles/41. stock-photo-water-bottles-on-dry-and-cracked-ground-abstract-images-of-natural-disasters-and-the-effects-of-1055140475.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>450</width>
+		<height>358</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>155</ymin>
+			<xmax>216</xmax>
+			<ymax>338</ymax>
+		</bndbox>
+	</object>
+</annotation>

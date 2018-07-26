@@ -1,0 +1,26 @@
+<annotation>
+	<folder>litter can</folder>
+	<filename>38. coke-coca-cola-can-rubbish-litter-waste-packaging-trash-aft661.jpg</filename>
+	<path>C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/total-dataset/images/litter can/38. coke-coca-cola-can-rubbish-litter-waste-packaging-trash-aft661.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1300</width>
+		<height>957</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>312</xmin>
+			<ymin>322</ymin>
+			<xmax>769</xmax>
+			<ymax>694</ymax>
+		</bndbox>
+	</object>
+</annotation>
