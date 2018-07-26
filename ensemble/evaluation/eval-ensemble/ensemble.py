@@ -29,14 +29,14 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util
 
 # Path to frozen detection graph. This is the actual model that is used for the object detection.
-PATH_TO_CKPT_1 = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/detector-models/rfcnmodel/models/rfcn/export/frozen_inference_graph.pb'
-PATH_TO_CKPT_2 = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/detector-models/ssdmodel/models/ssd/export/frozen_inference_graph.pb'
+PATH_TO_CKPT_1 = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/detector-models/ssdmodel/models/ssd/export/frozen_inference_graph.pb'
+PATH_TO_CKPT_2 = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/detector-models/rfcnmodel/models/rfcn/export/frozen_inference_graph.pb'
 # List of the strings that is used to add correct label for each box.
 PATH_TO_LABELS = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/new-tensorflow-dataset/data/label_map.pbtxt'
 #IMG Path
 PATH_TO_IMAGE = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/test-images/test1.jpg'
 IMG_DIR = "C:\\Users\\micha\\OneDrive\\Documents\\GitHub\\CVML-GSET-Project\\ensemble\\evaluation\\test-images\\"
-OUTPUT_TXT_DIR = "C:\\Users\\micha\\OneDrive\\Documents\\GitHub\\CVML-GSET-Project\\ensemble\\evaluation\\predictions\\"
+OUTPUT_TXT_DIR = "C:\\Users\\micha\\OneDrive\\Documents\\GitHub\\CVML-GSET-Project\\ensemble\\evaluation\\predicted\\"
 
 NUM_CLASSES = 8
 # Size, in inches, of the output images.
@@ -180,7 +180,7 @@ def run_ensemble(graph1, graph2):
                         confidences.append(class_prediction.get_confidence())
                         if(mini_box.class_label == class_prediction.class_label):
                             matches += 1
-                    if(matches == len(prediction_n.get_boxes())):
+                    if (True) : #matches == len(prediction_n.get_boxes())):
                         i = 0
                         for mini_box in prediction_n.get_boxes():
                             box_coords = box.get_coordinates_absolute(image)
