@@ -7,7 +7,7 @@ import json
 from math import ceil
 from prediction import Class_Prediction
 config = cp.RawConfigParser()
-config.read('../../../classifier-dataset/config/config.cfg')
+config.read('C:\\Users\\micha\\OneDrive\\Documents\\GitHub\\CVML-GSET-Project\\classifier-dataset\\config\\config.cfg')
 orientations = config.getint("hog", "orientations")
 pixels_per_cell = json.loads(config.get("hog", "pixels_per_cell"))
 cells_per_block = json.loads(config.get("hog", "cells_per_block"))
@@ -38,5 +38,5 @@ def predict_img(image, display):
     fd = hog(image, orientations = orientations, pixels_per_cell = pixels_per_cell, cells_per_block = cells_per_block, visualize = False)
     clf = joblib.load(model_linear_path)
     pred = clf.predict([fd])[0]
-    prob = clf.predict_proba([fd])[pred - 1]
+    prob = clf.predict_proba([fd])[0][pred - 1]
     return Class_Prediction(prob, pred)
