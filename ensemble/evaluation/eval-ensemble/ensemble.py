@@ -29,8 +29,8 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util
 
 # Path to frozen detection graph. This is the actual model that is used for the object detection.
-PATH_TO_CKPT_1 = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/detector-models/ssdmodel/models/ssd/export/frozen_inference_graph.pb'
-PATH_TO_CKPT_2 = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/detector-models/rfcnmodel/models/rfcn/export/frozen_inference_graph.pb'
+PATH_TO_CKPT_1 = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/detector-models/rfcnmodel/models/rfcn/export/frozen_inference_graph.pb'
+PATH_TO_CKPT_2 = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/detector-models/ssdmodel/models/ssd/export/frozen_inference_graph.pb'
 # List of the strings that is used to add correct label for each box.
 PATH_TO_LABELS = 'C:/Users/micha/OneDrive/Documents/GitHub/CVML-GSET-Project/dataset/new-tensorflow-dataset/data/label_map.pbtxt'
 #IMG Path
