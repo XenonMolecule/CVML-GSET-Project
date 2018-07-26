@@ -180,7 +180,7 @@ def run_ensemble(graph1, graph2):
                         confidences.append(class_prediction.get_confidence())
                         if(mini_box.class_label == class_prediction.class_label):
                             matches += 1
-                    if (True) : #matches == len(prediction_n.get_boxes())):
+                    if (matches == len(prediction_n.get_boxes())):
                         i = 0
                         for mini_box in prediction_n.get_boxes():
                             box_coords = box.get_coordinates_absolute(image)
