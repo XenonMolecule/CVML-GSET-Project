@@ -37,8 +37,6 @@ def predict_img(image, display):
     image = preprocess(image)
     fd = hog(image, orientations = orientations, pixels_per_cell = pixels_per_cell, cells_per_block = cells_per_block, visualize = False)
     clf = joblib.load(model_linear_path)
-    print(clf.classes_)
-    print(clf.predict_proba([fd]))
     pred = clf.predict([fd])[0]
     prob = clf.predict_proba([fd])[pred - 1]
     return Class_Prediction(prob, pred)
