@@ -5,7 +5,7 @@ import cv2
 import configparser as cp
 import json
 from math import ceil
-
+from prediction import Class_Prediction
 config = cp.RawConfigParser()
 config.read('../../../classifier-dataset/config/config.cfg')
 orientations = config.getint("hog", "orientations")
@@ -47,6 +47,6 @@ def predict_img(image):
     print(clf.predict_proba([fd]))
     pred = clf.predict([fd])[0]
     prob = clf.predict_proba([fd])[pred - 1]
-    return (pred, prob)
+    return Class_Prediction(prob, pred)
 
 print(predict_img(cv2.imread("test3.jpg")))
