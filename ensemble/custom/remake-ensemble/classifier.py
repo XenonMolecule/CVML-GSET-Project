@@ -45,6 +45,8 @@ def predict_img(image):
     clf = joblib.load(model_linear_path)
     print(clf.classes_)
     print(clf.predict_proba([fd]))
-    return clf.predict([fd])
+    pred = clf.predict([fd])[0]
+    prob = clf.predict_proba([fd])[pred - 1]
+    return (pred, prob)
 
 print(predict_img(cv2.imread("test3.jpg")))
