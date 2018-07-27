@@ -42,7 +42,7 @@ CONFIDENCE_THRESH = 0.5
 
 cap = cv2.VideoCapture(PATH_TO_INPUT)
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter(PATH_TO_OUTPUT, fourcc, 25.0, (480, 640), True)
+out = cv2.VideoWriter(PATH_TO_OUTPUT, fourcc, 25.0, (640, 480), True)
 
 def conv_id_to_name(id):
     if(id == 1):
@@ -277,6 +277,7 @@ def run_ensemble(graph1, graph2):
 
             # ACTUALLY RUN THE ENSEMBLER
             while(ret == True):
+                image = cv2.resize(image, (640, 480))
                 final_prediction = Prediction()
 
                 # Run inference
